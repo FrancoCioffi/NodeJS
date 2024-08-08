@@ -9,20 +9,28 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="palabra">
-      <h1>- Juego de Ahorcado -</h1>
-      <input type="text" id="guess" class="campo-texto" placeholder="Ingrese su texto aquí">
-      <div class="recuadros">
-        <div class="letra" id="letra1"></div>
-        <div class="letra" id="letra2"></div>
-        <div class="letra" id="letra3"></div>
-        <div class="letra" id="letra4"></div>
-        <div class="letra" id="letra5"></div>
-        <div class="letra" id="letra6"></div>
-        <div class="letra" id="letra7"></div>
-        <div class="letra" id="letra8"></div>
-      </div>
+  <h1>- Ahorcado -</h1>
+  <div class= "vida" id="health">
+    <div class="health-bar">
+        <img src="./css/images/vida4.png" alt="Barra de Vida" id = "healthBar">
     </div>
-    <script type="module" src="./js/main.js"></script>
+</div>
+
+  <div class="palabra" id="palabra">
+      <input type="text" id="guess" class="campo-texto" placeholder="Ingrese su texto aquí">
+      <div id="container">
+          <div class="recuadros">
+              <div class="letra" id="letra1"></div>
+              <div class="letra" id="letra2"></div>
+              <div class="letra" id="letra3"></div>
+              <div class="letra" id="letra4"></div>
+              <div class="letra" id="letra5"></div>
+              <div class="letra" id="letra6"></div>
+              <div class="letra" id="letra7"></div>
+              <div class="letra" id="letra8"></div>
+          </div>
+      </div>
+  </div>
+  <script type="module" src="./js/main.js"></script>
 </body>
 </html>
